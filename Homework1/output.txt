@@ -1,0 +1,37 @@
+BIGRAM LANGUAGE MODEL (VIETNAMESE)
+Số câu: 30
+Vocabulary size: 85
+Số bigram: 131
+
+Top Bigram Counts:
+<s> -> hôm : 7
+hôm -> nay : 12
+nay -> trời : 3
+trời -> đẹp : 1
+đẹp -> </s> : 3
+trời -> mưa : 1
+mưa -> </s> : 2
+trời -> nắng : 1
+nắng -> </s> : 1
+<s> -> tôi : 17
+tôi -> đi : 4
+
+Tính xác suất câu:
+Hôm nay trời đẹp lắm
+
+Chi tiết bigram:
+P(hôm|<s>) = 0.23333333333333334
+P(nay|hôm) = 1.0
+P(trời|nay) = 0.25
+P(đẹp|trời) = 0.3333333333333333
+P(lắm|đẹp) = 0.0
+P(</s>|lắm) = 0
+
+Sentence probability: 0.0
+
+Sinh câu từ mô hình:
+1 hà nội rất đẹp
+2 tôi thích ăn phở vào buổi sáng
+3 tôi thích học khoa công nghệ thông tin
+4 tôi thích ăn bún chả
+5 tôi đang học máy
